@@ -1,0 +1,79 @@
+/* Typography */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.999rem;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5.453rem;
+    text-shadow: 2px 2px 0 #000;
+    word-spacing: 1rem;
+    text-transform: uppercase;
+}
+
+/* layout */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagline p {
+    margin: 0;
+}
+
+.tagline {
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.7);
+    word-spacing: 0.5rem;
+    letter-spacing: 0.2rem;
+    margin-top: 3rem;
+}
+
+/* backround */
+.hero {
+    background: url(../image/bg-_nyjved_c_scale\,w_320.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+@media screen and (min-width:770px) {
+    .hero {
+        background: url(../image/bg-_nyjved_c_scale\,w_976.webp);
+        background-size: cover;
+    }
+
+    body {
+        font-size: 2.827rem;
+    }
+}
+
+@media screen and (min-width:1028px) {
+    .hero {
+        background: url(../image/bg-_nyjved_c_scale\,w_1280.webp);
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .hero {
+        background: url(../image/bg-_nyjved_c_scale\,w_1440.webp);
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 8.694rem;
+    }
+}
